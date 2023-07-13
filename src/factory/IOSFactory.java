@@ -7,6 +7,7 @@ import factory.components.dropDown.IOSDropDown;
 import factory.components.menu.IOSMenu;
 import factory.components.menu.Menu;
 
+// Below all are factory methods
 public class IOSFactory implements UIFactory{
     @Override
     public Menu createMenu() {
