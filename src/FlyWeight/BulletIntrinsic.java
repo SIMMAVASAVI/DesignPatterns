@@ -5,18 +5,10 @@ public class BulletIntrinsic {
     // all are intrinsic variables which are same for all bullets
 
     private static BulletIntrinsic instance;
-    int weight;
-    String color;
-    int length;
-    int width;
-
-    public BulletIntrinsic(int weight, String color, int length, int width) {
-        BulletIntrinsic.getInstance();
-        instance.weight = weight;
-        instance.color = color;
-        instance.length = length;
-        instance.width = width;
-    }
+    int weight=12;
+    String color="blue";
+    int length=4;
+    int width=3;
 
     private BulletIntrinsic(){
 
