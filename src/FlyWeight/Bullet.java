@@ -4,6 +4,7 @@ public class Bullet {
 
     //All are Extrinsic variables - that vary every time
     // always takes  shallow copy of the Intrinsic Class, which reduces the memory consumption is flyweight use
+    // always takes  shallow copy of the Intrinsic Class, which reduces the memory consumption is facade use
 
     int speed;
     int sourceCoOrdinate;
